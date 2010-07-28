@@ -1,0 +1,315 @@
+
+/* GENERAL STYLES */
+body { margin-top: 0px; margin-left: 0px; margin-right: 10px; font-family: arial; font-size: 9pt; color:#333333; background-color: #dddddd; }		
+h2, h3, h4 { font-family: arial,helvetica,sans-serif; color: #d50a20; }	
+h1 { font-family: arial,arial,helvetica; color: #D25A0B; font-size: 18px; margin-bottom: 10px; margin-top: 0px; font-weight: bold; }
+h2{font-size: 16px; margin-bottom:5px;}
+h3{font-size: 14px; margin-bottom:5px;}
+h4 { margin-top: 25px; margin-bottom: 15px; font-weight: bold; font-size: 9pt; color: #444444; font-family: arial; padding-right: 5px; padding-left: 5px; padding-bottom: 3px; padding-top: 3px; background-color: #eaebeb; border-bottom: #8e9fba 1px solid; border-top-width: 1px; border-top-color: #d3d3d3; border-right-width: 1px; border-right-color: #d3d3d3; }	
+hr{border: 0;width: 100%;color: #cccccc;height: 1px;}
+A:link { text-decoration: underline; color: #0000ff; font-family: arial,arial,helvetica,sans-serif; }
+A:Visited{text-decoration: underline; color: #0000ff; font-family: arial,arial,helvetica,sans-serif;}
+A:Hover { text-decoration: underline; color: #ff0000; font-family: arial,arial,helvetica,sans-serif; } 
+.SuccessMark{font-weight: bold; color: Green; font-size: 11px; background-image: url(../../../Images/icons/check.png); line-height:16px; background-repeat: no-repeat; padding-left: 15px; margin-bottom: 2px; margin-top: 2px; }
+.CheckMark{ font-weight: bold; color: #000000; font-size: 11px; background-image: url(../../../Images/icons/check.png); line-height:16px; background-repeat: no-repeat; padding-left: 15px; margin-bottom: 2px; margin-top: 2px; }
+.ExclamationMark { font-weight: bold; color: #000000; font-size: 11px; background-image: url(../../../Images/icons/warning_small.gif); background-repeat: no-repeat; padding-left: 15px; margin-bottom: 5px; margin-top: 5px; }
+.Success{ font-weight: bold; color: Green; font-size: 11px; background-image: url(../../../Images/icons/warning_small.gif); background-repeat: no-repeat; padding-left: 15px; margin-bottom: 5px; margin-top: 5px; }
+.Error{ font-weight: bold; color: #ff0000; font-size: 11px; margin-bottom: 5px; margin-top: 5px; }
+p { margin-top: 5px; margin-bottom: 10px; }
+big{font-size: 11pt;}
+small { font-size: 9pt; font-weight: normal; color: #666666; font-family: arial; border-top-width: 1px; border-left-width: 1px; border-left-color: #3399cc; border-bottom-width: 1px; border-bottom-color: #3399cc; border-top-color: #3399cc; border-right-width: 1px; border-right-color: #3399cc; }
+.ShadowLine { background-image: url(../../../Images/accents/shadow_vertical.gif); background-repeat: repeat-x; height: 5px; background-color: #ffffff; }	
+.Button{ padding-left:5px; padding-right:5px; padding-top:2px;padding-bottom:2px; color:#333333;font-family:arial;font-size:11px;font-weight:bold;background-color:#fed;border:1px solid;border-top-color:#696;border-left-color:#696;border-right-color:#363;border-bottom-color:#363;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa');}
+.MiceText { font-size: 9px; color: #333333; font-family: arial; }
+.PopupBody { text-align: center; margin-top: 0px; font-family: arial,helvetica,sans-serif; font-size: 8pt; color: #666666; background-color: #ffffff; }		
+
+/* PAGE SECTIONS */	
+.TopStrip { padding-right: 5px; padding-bottom: 5px; padding-top: 2px; font-size: 10px; }
+.TopStrip a{font-size: 10px;}
+.LeftPane { background-color: #fbfbfb; padding-right: 5px; padding-left: 5px; padding-bottom: 20px; padding-top: 10px; width: 150px; border-right: #a2bcd5 1px solid; }
+.EditorLeftPane { background-color: #efefef; padding-right: 5px; padding-left: 5px; padding-bottom: 20px; padding-top: 5px; width: 150px; border-right: #a2bcd5 2px solid; margin-right: 10px; }
+.CenterPane { background-color: white; padding-right: 20px; padding-left: 20px; padding-bottom: 25px; padding-top: 10px; border-left: #a2bcd5 1px solid; border-right: #a2bcd5 2px solid; }
+.EditPane { background-color: white; padding-right: 20px; padding-left: 20px; padding-bottom: 20px; padding-top: 20px; border-bottom: #a2bcd5 1px solid; border-left: #a2bcd5 1px solid; border-right: #a2bcd5 1px solid;}
+.FooterPane { padding-top: 10px; border-bottom-width: 1px; border-bottom-color: #125592; border-right-width: 1px; border-right-color: #125592; border-top: #128cdd 1px solid; text-align: center; }
+
+.HeaderPane { padding-top: 5px; background-color: #ffffff; }
+.HeaderRight{ background-color:#b5dcf5;  background-image: url(../../../Images/background/header_admin.jpg); background-repeat: repeat-y; border-right: #a2bcd5 2px solid;}
+.HeaderLine{border-bottom: #0099cc 1px solid;}
+.LogoPane{ border-left: #a2bcd5 1px solid; }
+.Logo { font-weight: bold; font-size: 18px; color: #c6e6f5; font-family: Arial; text-transform: uppercase; padding-right: 5px; padding-left: 10px; padding-bottom: 10px; padding-top: 5px;  }
+#BreadCrumb { text-align: left; vertical-align: middle; background-color: #f5f5f5; padding-right: 5px; padding-left: 5px; padding-bottom: 2px; padding-top: 2px; border-bottom: 1px solid #C0C0C0; font-size: 8pt; margin-bottom: 10px; }	
+#BreadCrumb A:link { text-decoration: none; font-size: 8pt; }
+#BreadCrumb A:Visited{text-decoration: none; font-size: 8pt; }
+#BreadCrumb A:Hover{text-decoration: none; font-size: 8pt; }
+.LoginStatus { padding-left:15px;padding-right:5px; } 
+.MagnifyIcon { padding-right:5px; vertical-align:middle; }
+
+/* FORM */
+.Form { margin-bottom: 15px; }
+.FormTitle { font-weight: bold; font-size: 12px; color: #ffffff; font-family: arial; background-color: #6699cc; padding-right: 10px; padding-left: 10px; padding-bottom: 5px; padding-top: 5px; } 
+.Form .Search { background-color: #f1f1f1; padding-right: 10px; padding-left: 10px; padding-bottom: 20px; padding-top: 10px; border-right: #b5b4b5 1px solid; border-top: #b5b4b5 1px solid; border-left: #b5b4b5 1px solid; border-bottom: #b5b4b5 1px solid; margin-top: 5px; margin-bottom: 5px; }
+.Form .Asterix { color: red; font-size: 8pt; }
+.Form .HeaderStyle { font-weight: bold; font-size: 11px; background-color: #e6e6e6; color: #333333; margin-bottom: 5px; margin-top: 10px; padding-bottom: 3px; padding-top: 3px; padding-left: 5px; padding-right: 5px; }
+.Form .Row { margin-bottom: 10px; padding-bottom: 5px; margin-top:5px; }
+.Form .FieldStyle { white-space: nowrap; font-size: 9pt; font-weight: bold; color: #333333; text-align: left; font-family: arial; padding-right: 5px; }
+.Form .ValueStyle { font-size: 8pt; font-weight: normal; margin-bottom: 20px; margin-top: 5px; }
+.Form .HintStyle { font-size: 9pt;font-weight:normal; color: #666666; font-family: arial; border-top-width: 1px; border-left-width: 1px; border-left-color: #3399cc; border-bottom-width: 1px; border-bottom-color: #3399cc; border-top-color: #3399cc; border-right-width: 1px; border-right-color: #3399cc; }
+.Form .ReportStyle { white-space: nowrap; font-size: 9pt; font-weight: bold; color: #333333; text-align: left; font-family: arial; padding-right: 5px;  margin-bottom: 20px; margin-top: 5px; }
+.Form .HighlightHintStyle { font-size: 9pt;font-weight:bold; color: #666666; font-family: arial;margin-top:2px;border-top-width: 1px; border-left-width: 1px; border-left-color: #3399cc; border-bottom-width: 1px; border-bottom-color: #3399cc; border-top-color: #3399cc; border-right-width: 1px; border-right-color: #3399cc; }
+.Form .Or { font-weight: bold; font-size: 14px; color: #336699; font-family: arial; padding-right: 10px; padding-left: 10px; text-transform: uppercase; }
+.Form .HiddenFieldStyle { padding:0px; margin:0px; height:0px; width:0px; display:none; }
+.Form .TextValueStyle { font-size: 8pt; font-weight: normal; margin-bottom: 5px; margin-top: 5px; }
+
+/* VIEW FORM STYLES */
+.ViewForm{}
+.ViewForm .FieldStyle { padding-right: 20px; font-weight: bold; text-align: right; }
+.ViewForm .ValueStyle{padding-right: 20px;}
+.ViewForm .RowStyle{ background-color: #EFF3FB; padding-bottom:5px; padding-top:5px;}
+.ViewForm .AlternatingRowStyle{ background-color: #FFFFFF; padding-bottom:5px; padding-top:5px;}
+
+/* MENU */
+#Menu
+{
+    font-size: 10px;
+    color: white;
+    font-family: arial;
+    margin-left: 20px;
+    text-transform: uppercase;
+    
+}
+#Menu A:link { text-decoration: none; }
+#Menu A:Visited{text-decoration: none; }
+#Menu A:Hover{text-decoration: none; }
+#Menu .StaticMenuStyle {margin:0px;}	
+#Menu .StaticMenuItemStyle { width:auto; color: #ffffff; background-color: #2975a7; font-weight: bold; padding-right: 5px; padding-left: 3px; padding-bottom: 5px; padding-top: 5px; }	
+#Menu .StaticHoverStyle { color: #ffffff; background-color: gray; }	
+#Menu .StaticSelectedStyle {}
+#Menu .DynamicMenuStyle
+{
+    font-size: 9px;
+    color: white;
+    font-family: arial;
+    background-color: #336699;
+    margin-top: 2px;
+}
+#Menu .DynamicMenuItemStyle {font-size: 9px; color: white; background-color: #2975a7; padding-right: 3px; padding-left: 3px; padding-bottom: 5px; padding-top: 5px; border-bottom: #ffffff 1px solid; border-right: #125592 1px solid; border-left: #125592 1px solid; width:150px; }
+#Menu .DynamicHoverStyle{color: #ffffff; background-color: gray;}
+#Menu .DynamicSelectedStyle{ } 
+#Menu .MenuBottomLine {}	
+		
+/* TREEVIEW */
+.AdminNavigation { margin-bottom: 15px; padding-bottom: 5px; padding-left: 5px; font-family: Arial; font-size: 11px; color: #335669; margin-top: 0px; }
+.AdminNavigation A:link { text-decoration: none; color: #335669; }
+.AdminNavigation A:Visited{text-decoration: none; color: #335669;}
+.AdminNavigation A:Hover { color: #335669; text-decoration: none; } 
+.AdminNavigation .Title { color: black; font-weight: bold; padding-right: 10px; padding-left: 10px; padding-bottom: 5px; padding-top: 5px; font-size: 8pt; font-family: arial; }
+.AdminNavigation .TreeView { padding-left: 10px; }
+.AdminNavigation .NodeStyle { font-weight: normal; padding-bottom: 5px; padding-top: 5px; }
+.AdminNavigation .RootNodeStyle { font-size: 8pt; font-family: arial; font-weight: bold; padding-bottom: 5px; padding-top: 5px; width: 200px; padding-right: 5px; padding-left: 5px; margin-top: 10px; background-image: url(../../../Images/background/left_header_admin.jpg); background-repeat: repeat-y; }
+.AdminNavigation .HoverNodeStyle { background-color: #dceef5; width: 200px; }
+.AdminNavigation .ParentNodeStyle {padding-left: 5px;}
+.AdminNavigation .LeafNodeStyle {padding-left: 5px; }
+.AdminNavigation .SelectedNodeStyle { color: #D25A0B; font-weight: bold; background-color: #ffffff; width: 200px;}
+
+
+/* GRIDVIEW */
+.Grid { border-bottom: #c0c0c0 1px solid; padding-bottom: 10px; }
+.Grid .FooterStyle { background-color: #ffffff; color: white; font-weight: bold;}
+.Grid .RowStyle { background-color: #dceef5; }
+.Grid .PagerStyle { background-color: #507CD1; color: white; font-weight: bold; text-align:left; }
+.Grid .PagerStyle A:link { text-decoration:underline;  color: white; }
+.Grid .PagerStyle A:hover {text-decoration:underline;   color: #dceef5; }
+.Grid .PagerStyle A:visited { text-decoration:underline;  color: white; }
+.Grid .HeaderStyle{ background-color: #2975a7; color: white; font-weight: bold; text-align:left; }
+.Grid .HeaderStyle A:link { text-decoration:underline;  color: white; }
+.Grid .HeaderStyle A:hover {text-decoration:underline;   color: #dceef5; }
+.Grid .HeaderStyle A:visited { text-decoration:underline;  color: white; }
+.Grid .AlternatingRowStyle{ background-color: #FFFFFF;}
+
+/* DASHBOARD */
+.Dashboard .Box
+{
+    border-right: #888888 1px solid;
+    border-top: #888888 1px solid; 
+    border-left: #888888 1px solid;
+    border-bottom: #888888 1px solid;
+    width: 240px;
+    height: 250px;
+    margin-top: 20px;
+    vertical-align: top;
+    background-color: #FBFBFB;
+}
+.Dashboard .Box A:link { text-decoration: none; font-size: 8pt; }
+.Dashboard .Box A:Visited{text-decoration: none;font-size: 8pt;}
+.Dashboard .Box A:Hover { text-decoration: none; font-size: 8pt; color: #ff0000; } 
+.Dashboard .Box .Title
+{
+    background-color: #888888;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-bottom: #888888 1px solid;
+}
+.Dashboard .Box .Title .Icon { padding-right: 5px; }
+.Dashboard .Box .Title .Caption { padding-top: 5px; font-weight: bold; color: #ffffff; font-family: arial, Arial; font-size: 8pt; }
+.Dashboard .Box .Inner { padding-right: 10px; padding-left: 10px; padding-bottom: 10px; padding-top: 15px; }
+.Dashboard .Box .SubTitle { font-weight: bold; font-size: 8pt; padding-bottom: 10px; font-family: arial; color: #666666; }
+.Dashboard .Box .Metric { padding-bottom: 10px; padding-left: 0px; }
+.Dashboard .Box .MetricLabel { color: #333333; font-size: 8pt; font-family: arial; }
+.Dashboard .Box .MetricValue { color: #333333; font-size: 8pt; font-family: arial; padding-left: 5px; font-weight: bold; }
+.Dashboard .Box .Icon { padding-right: 2px; }
+.Dashboard .Box .Shortcut { padding-bottom: 5px; padding-left: 0px; }
+.Dashboard .Box .PopularKeywords { padding-left: 0px; }
+.Dashboard .Box .PopularKeywords .Keyword { padding-bottom: 10px; padding-left: 0px; }
+.Dashboard .Box .PopularKeywords .ArrowIcon { padding-right: 5px; vertical-align:text-top; }
+.Dashboard .Status {border-right: #aca899 1px solid; border-top: #aca899 1px solid; border-left: #aca899 1px solid; border-bottom: #aca899 1px solid; background-color: #ffffea; padding-right: 5px; padding-left: 5px; padding-bottom: 5px; padding-top: 5px; margin-top:25px; margin-bottom:15px; font-size: 8pt; font-family: arial; }
+.Dashboard .Status A:link { text-decoration: none; font-size: 8pt; }
+.Dashboard .Status A:Visited{text-decoration: none;font-size: 8pt;}
+.Dashboard .Status A:Hover{text-decoration: none;font-size: 8pt;} 
+.Dashboard .Box .ReportItem{ background-image: url(../../../Images/icons/filter.gif); line-height:16px; background-repeat: no-repeat; padding-left: 20px; margin-bottom: 10px; margin-top: 2px; }
+.Dashboard .Box .HelpItem{ background-image: url(../../../Images/icons/question.gif); line-height:16px; background-repeat: no-repeat; padding-left: 20px; margin-bottom: 10px; margin-top: 2px; }
+.Dashboard .Box .AlertItem{ background-image: url(../../../Images/icons/warning_small.gif); line-height:16px; background-repeat: no-repeat; padding-left: 20px; margin-bottom: 10px; margin-top: 2px; }
+.Dashboard .Box .SearchItem{ background-image: url(../../../Images/icons/magnify.gif); line-height:16px; background-repeat: no-repeat; padding-left: 20px; margin-bottom: 10px; margin-top: 2px; font-size:8pt; }
+.Dashboard .Box .MetricItem{ background-image: url(../../../Images/icons/16/108-graph2.gif); line-height:16px; background-repeat: no-repeat; padding-left: 20px; margin-bottom: 10px; margin-top: 2px; }
+.Dashboard .NewsItem{ background-image: url(../../../images/icons/arrow.gif); background-repeat: no-repeat; padding-left: 15px; margin-bottom: 10px; margin-top: 2px;  font-size:8pt; }
+    
+/* Landing Pages */
+.LandingPage{}
+.LandingPage .Shortcut { margin-bottom: 5px; margin-left: 0px; margin-top: 30px; text-transform:uppercase; font-size:11px; }
+.ActionLink A:link { text-decoration: none; font-size: 10pt; }
+.ActionLink A:Visited{text-decoration: none;font-size: 10pt;}
+.ActionLink A:Hover{text-decoration: none;font-size: 10pt;} 
+
+/* License Classes */
+.License {border-right: #c0c0c0 1px solid; padding-right: 10px; border-top: #c0c0c0 1px solid; padding-left: 10px; padding-bottom: 10px; border-left: #c0c0c0 1px solid; padding-top: 10px; border-bottom: #c0c0c0 1px solid; background-color: #fcfcfc; margin: 40px 40px 100px; }
+.License .Row { padding-bottom: 5px; }
+.License .FieldLabel { padding-right: 10px; font-weight: bold; font-family: arial; }
+.License .Status { border-right: #aca899 1px solid; border-top: #aca899 1px solid; border-left: #aca899 1px solid; border-bottom: #aca899 1px solid; background-color: #ffffea; padding-right: 5px; padding-left: 5px; padding-bottom: 5px; padding-top: 5px; margin-top: 15px; margin-bottom: 0px; }
+
+/* TABS */
+#Tabs { padding: 0; width: 100%; background: transparent; voice-family: "\"}\""; voice-family: inherit; }
+#Tabs ul { font: bold 9px Arial; margin: 0; margin-left: 15px; /*margin between first menu item and left browser edge*/ padding: 0; list-style: none; }
+#Tabs li { display: inline; margin: 0 2px 0 0; padding: 0; }
+#Tabs a { float: left; display: block; color: white; margin: 0 1px 0 0; /*Margin between each menu item*/ padding: 5px 10px; text-decoration: none; letter-spacing: 1px; background-color: #128cdd; /*Default menu color*/ border-bottom: 1px solid white; font-weight: bold; font-size: 11px; font-family: arial; }
+#Tabs a:hover { background-color: gray; /*Menu hover bgcolor*/ }
+#Tabs #current a { /*currently selected tab*/ }
+#TabsLine { clear: both; padding: 0; width: 100%; height: 1px; line-height: 1px; background: #128cdd; }
+
+.Login {border-right: #c0c0c0 1px solid; padding-right: 10px; border-top: #c0c0c0 1px solid; padding-left: 10px; padding-bottom: 10px; border-left: #c0c0c0 1px solid; padding-top: 10px; border-bottom: #c0c0c0 1px solid; background-color: #fcfcfc; margin: 40px 40px 100px; }
+
+/*************************************************/
+/* Order Desk Page */
+/*************************************************/
+.OrderDesk {}
+.OrderDesk .LinkButton { font-size:12px; margin-bottom:10px; }
+.CustomerSearch { }
+.CustomerSearch .SearchBox { margin-top:10px;}
+
+/* Modal Popup */
+.modalBackground { background-color:#414141; filter:alpha(opacity=70);  opacity:0.7;}
+.PopupStyle
+{
+    background-color: White;
+    width: 900px;
+    margin: 0px;
+    padding: 15px;
+    border-right: #336699 2px solid;
+    border-top: #336699 2px solid;
+    border-left: #336699 2px solid;
+    border-bottom: #336699 2px solid;
+}
+
+/**************************************************/
+/* Update progress style - Quick Order page
+/**************************************************/
+.overlay {position: fixed;z-index: 99;top: 0px;left: 0px;background-color: #FFFFFF;width: 100%;height: 100%;filter: Alpha(Opacity=70);opacity: 0.70; -moz-opacity: 0.70; }
+* html .overlay { position: absolute; height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px'); width: expression(document.body.scrollWidth > document.body.offsetWidth ? document.body.scrollWidth : document.body.offsetWidth + 'px'); }
+.loader { z-index: 100; position: fixed; width: 120px; margin-left: -60px; top: 50%; left: 50%; }
+* html .loader { position: absolute; margin-top: expression((document.body.scrollHeight / 4) + (0 - parseInt(this.offsetParent.clientHeight / 2) + (document.documentElement && document.documentElement.scrollTop || document.body.scrollTop)) + 'px'); }
+
+/*************************************************/
+/* Quick Order Page */
+/*************************************************/
+.QuickOrder { width:100%; }
+.QuickOrder .SearchGrid { width:100%;padding-bottom: 10px; margin-bottom:10px; }
+.QuickOrder .SearchGrid .HeaderStyle { text-align:left; font-weight: bold; font-size: 11px; color: white; background-color: #5d7b9d; }
+.QuickOrder .SearchGrid .RowStyle {  vertical-align:middle; font-weight: normal; font-size: 11px; color: #333333; background-color: #F7F6F3; }
+.QuickOrder .SearchGrid .AlternatingRowStyle { vertical-align:middle; font-weight: normal; font-size: 11px; background-color: #ffffff; }
+.QuickOrder .SearchGrid .FooterStyle { background-color: #5d7b9d; }
+.QuickOrder .SearchGrid .PagerStyle { font-weight: bold; font-size: 11px; color: white; padding:0px; background-color: #5d7b9d; vertical-align:middle; }
+
+.QuickOrder .Grid {width:100%;padding-bottom: 10px; margin-bottom:10px; }
+.QuickOrder .Grid .HeaderStyle { font-weight: bold; font-size: 11px; color: white; background-color: #5d7b9d; }
+.QuickOrder .Grid .HeaderStyle td { padding:4px 0px 4px 2px; }
+.QuickOrder .Grid .RowStyle { vertical-align:middle; font-weight: normal; font-size: 11px; color: #333333; background-color: #F7F6F3; }
+.QuickOrder .Grid .RowStyle td { padding:4px 0px 4px 2px; }
+.QuickOrder .Grid .AlternatingRowStyle { vertical-align:middle; font-weight: normal; font-size: 11px; background-color: #ffffff; }
+.QuickOrder .Grid .AlternatingRowStyle td { padding:4px 0px 4px 2px; }
+.QuickOrder .Grid .FooterStyle { }
+.QuickOrder .Grid td { border-bottom: #5d7b9d 1px solid; vertical-align:middle;}
+.QuickOrder .Grid a{text-decoration:none;color:#003399;}
+.QuickOrder .Grid a:link{text-decoration:none;color:#003399;}
+.QuickOrder .Grid a:hover{text-decoration:underline;color:#F60}
+.QuickOrder .Grid a:visited{text-decoration:none;color:#003399;}
+.QuickOrder .Grid .ProductName { font-size:11px; }
+.QuickOrder .Grid .ProductStyle { font-size:11px; }
+.QuickOrder .Grid .EditLink { margin:0px; margin-left:5px; vertical-align:middle; text-decoration:underline; }
+.QuickOrder .Grid .EditLink A:Link{ text-decoration:underline; }
+.QuickOrder .Grid .EditLink A:Hover{ text-decoration:underline; }
+.QuickOrder .Grid .EditLink A:Visited{ text-decoration:underline; }
+.QuickOrder .Grid .Attributes { }
+.QuickOrder .Grid .Attributes .FieldStyle { font-size:10px; font-weight:bold; }
+.QuickOrder .Grid .Attributes .ValueStyle { font-size:11px; margin-bottom:3px; }
+.QuickOrder .Grid .Price { font-size:11px; margin:0px; }
+.QuickOrder .SubmitButton { margin:0px; margin-bottom:15px; }
+.QuickOrder .HintText { font-size:11px; margin-left:0px; margin-bottom:10px; }
+.QuickOrder .TotalBox .CartTotals { margin-bottom: 10px; text-align: right; font-weight:bold; padding-right:12px; }
+.QuickOrder .TotalBox .AddToCartButton { text-align:right;}
+.QuickOrder .ProductDetail { width:100%; }
+.QuickOrder .ProductDetail .OuterBorder { margin-top: 0px; margin-bottom: 20px; margin-left:5px; font-size: 8pt; border: #eff3f6 5px solid; vertical-align:top; padding:10px;}
+.QuickOrder .ProductDetail .UpdateProgress {color:Black; background-color:#FAFEFE;padding:1px; padding-left:2px; margin-top:5px; border:1px solid #8ADAD8;width:90px; text-align:center;}
+.QuickOrder .ProductDetail .CloseLink { text-align:right; }
+.QuickOrder .ProductDetail .CloseLink a {text-decoration:none; color: black; padding-right:10px; font-size:14px; font-family: arial,arial,helvetica;  font-weight:bold; }
+.QuickOrder .ProductDetail .FieldStyle { white-space: nowrap; font-size: 11px; font-weight: bold; color: #4b4b4b; padding-bottom:0px; margin-bottom: 0px; padding-right: 10px; padding-top:3px; }
+.QuickOrder .ProductDetail .ValueStyle {font-size: 11px; font-weight: normal; color: #333333; padding-bottom: 2px; padding-top: 2px; }
+
+.QuickOrder .AttributeGrid .SizeGrid {background-color:#FAFEFE; width:auto; margin: 0px 0px 0px 0px; padding:1px;border-bottom:solid 1px #ACBEF6;}
+.QuickOrder .AttributeGrid .SizeGrid .Title {letter-spacing:1px; background-color:#6175A6;color:white; border-bottom: solid 1px #6175A6;font: bold 11px Arial;padding-left:10px;padding-top:3px;padding-bottom:3px;}
+.QuickOrder .AttributeGrid .SizeGrid .Legend {color: #7777a4;padding: 0px; margin: 0px;border-top: solid 1px #ACBEF6;}
+.QuickOrder .AttributeGrid .SizeGrid .inStock { color: #7777a4; }
+.QuickOrder .AttributeGrid .SizeGrid .outOfStock { color: #7777a4; }
+.QuickOrder .AttributeGrid .SizeGrid .HeaderStyle { color:#7777a4;font-weight:normal;background-color:#FAFEFE;padding:0px;border-bottom: solid 1px #ACBEF6;}
+.QuickOrder .AttributeGrid .SizeGrid .LeftColStyle {color:#7777a4;font-weight:normal;background-color:#FAFEFE;padding:3px;text-align:right;border-left:solid 1px #ACBEF6;}
+.QuickOrder .AttributeGrid .SizeGrid .RowStyle { padding: 0px; background-color:#EAF6F6;color:#0F9B97;}
+.QuickOrder .AttributeGrid .SizeGrid .RowStyle .HeaderStyle { border-bottom: none; border-right: none; }
+.QuickOrder .AttributeGrid .SizeGrid td { border-right:solid 1px #ACBEF6;}
+.QuickOrder .AttributeGrid .SizeGrid .HeaderStyle { text-align: center; width: 25px; }
+.QuickOrder .AttributeGrid .SizeGrid .Header { width: 25px; }
+
+/**************************************************/
+/* SHOPPING CART                                 
+/**************************************************/
+.TableContainer { width:100%; }
+.ShoppingCart { margin-bottom: 10px; width:100%;}
+.ShoppingCart .LinkButton { margin-bottom:15px; }
+.ShoppingCart .CheckoutBox { margin-bottom: 10px; margin-top: 10px; text-align: right; }
+.ShoppingCart .CustomerService { font-weight: bold; font-size: 9pt; font-family:Arial; }
+.ShoppingCart .Grid { width:100%; }
+.ShoppingCart .Grid .Header { font-weight: bold; font-size: 11px; color: white; background-color: #5d7b9d; }
+.ShoppingCart .Grid .Row { font-weight: normal; font-size: 11px; color: #333333; background-color: #F7F6F3; }
+.ShoppingCart .Grid .AlternatingRow { font-weight: normal; font-size: 11px; color: #284775; background-color: #ffffff; }
+.ShoppingCart .Grid .Description { font-size: 11px; font-family: arial; padding-top: 5px; }
+.ShoppingCart .Update { font-weight: normal; margin-top: 5px; }
+.ShoppingCart .Quantity { width: 20px; height: 15px; }
+.ShoppingCart .CartTotals { margin-bottom: 10px; text-align: right; }
+.ShoppingCart .Apply {color:#3c3c9e;}
+.ShoppingCart .gobutton {vertical-align:middle;padding-bottom:6px;}
+.ShoppingCart .TotalBox td {padding-left:20px;text-align:right;}
+.ShoppingCart .bold {font-weight:bold;}
+
+/**************************************************/
+/* DashBoard Top Links                                 
+/**************************************************/
+.DashBoardItems {}
+.DashBoardItems td {text-align:center; width:148px; padding:3px;}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+	<siteMapNode url="~/admin/default.aspx" title="Admin"  description="">
+		
+		<siteMapNode url="~/admin/secure/default.aspx" title="Dashboard"  description="" />
+		
+    <siteMapNode url="~/admin/secure/catalogmanager.aspx" title="Catalog"  description="" >
+
+      <siteMapNode url="~/admin/secure/catalog/product_category/list.aspx" title="Categories"  description="" />
+
+      <siteMapNode url="~/admin/secure/catalog/product/list.aspx" title="Products"  description="" >
+        <siteMapNode url="~/admin/secure/catalog/product/view.aspx" title="Product Details"  description="" />
+      </siteMapNode>
+
+      <siteMapNode url="~/admin/secure/catalog/promotions/list.aspx" title="Promotions"  description="" />
+      
+      <siteMapNode url="~/admin/secure/catalog/product_type/list.aspx" title="Product Types"  description="" >
+        <siteMapNode url="~/admin/secure/catalog/product_type/view.aspx" title="Attributes"  description="" />
+      </siteMapNode>
+
+      <siteMapNode url="~/admin/secure/catalog/product_Attribute_Types/list.aspx" title="Attributes"  description="" />
+
+      <siteMapNode url="~/admin/secure/catalog/product_addons/list.aspx" title="Add-Ons"  description="">
+        <siteMapNode url="~/admin/secure/catalog/product_addons/view.aspx" title="View Details"  description="" />
+      </siteMapNode>
+
+      <siteMapNode url="~/admin/secure/catalog/product_highlights/default.aspx" title="Highlights"  description="" />
+
+      <siteMapNode url="~/admin/secure/catalog/product_manufacturer/list.aspx" title="Brands"  description="" />
+      
+      
+		</siteMapNode>
+
+    <siteMapNode url="~/admin/secure/ordermanager.aspx" title="Sales"  description="" >
+			
+			<siteMapNode url="~/admin/secure/sales/orders/list.aspx" title="View Orders"  description="" >
+				<siteMapNode url="~/admin/secure/sales/orders/view.aspx" title="Order Detail"  description="" />
+			</siteMapNode>
+
+      <siteMapNode url="~/admin/secure/sales/OrderDesk/OrderDesk.aspx" title="Create an Order"  description="" />
+      
+			<siteMapNode url="~/admin/secure/sales/customers/list.aspx" title="Accounts"  description="" >
+				<siteMapNode url="~/admin/secure/sales/customers/view.aspx" title="Account Details"  description="" />
+			</siteMapNode>
+
+  		  <siteMapNode url="~/admin/secure/sales/cases/list.aspx" title="Service Requests"  description="" >
+        
+				<siteMapNode url="~/admin/secure/sales/cases/view.aspx" title="View Case Details"  description="" />
+          
+			</siteMapNode>
+
+      <siteMapNode url="~/admin/secure/catalog/product_reviews/default.aspx" title="Customer Reviews"  description="" />
+      
+			
+      <siteMapNode url="~/admin/secure/catalog/product_suppliers/list.aspx" title="Suppliers"  description="" />
+		</siteMapNode>
+
+    <siteMapNode url="~/admin/secure/SEO/SEOManager.aspx" title="SEO"  description="">
+      <siteMapNode url="~/admin/secure/SEO/default.aspx" title="Default SEO Settings"  description=""/>
+      <siteMapNode url="~/admin/secure/SEO/product/product_list.aspx" title="Product SEO Settings"  description=""/>
+      <siteMapNode url="~/admin/secure/SEO/category/product_category_list.aspx" title="Category SEO Settings"  description=""/>
+      <siteMapNode url="~/admin/secure/SEO/pages/pages_list.aspx" title="Page SEO Settings"  description=""/>
+      <siteMapNode url="~/admin/secure/SEO/UrlRedirect/default.aspx" title="URL 301 Redirects"  description=""/>
+      <siteMapNode url="~/admin/secure/SEO/reports/popularsearch.aspx?filter=23" title="Most Popular Searches"  description=""/>
+      <siteMapNode url="~/admin/secure/SEO/Tracking/DownloadTracking.aspx" title="Download Tracking Data"  description=""/>
+    </siteMapNode>
+    
+		<siteMapNode url="~/admin/secure/contentmanager.aspx" title="Design"  description="" >
+			<siteMapNode url="~/admin/secure/design/template/SiteTheme.aspx" title="Site Theme" description=""/>
+			<siteMapNode url="~/admin/secure/settings/messages/default.aspx" title="Edit Messages"  description="" />
+			<siteMapNode url="~/admin/secure/design/pages/default.aspx" title="Manage Pages"  description="" />
+			<siteMapNode url="~/admin/secure/design/template/CSSEditor.aspx" title="Edit CSS"  description="" />
+		</siteMapNode>
+ 
+    <siteMapNode url="~/admin/secure/DataManager/default.aspx" title="Data Manager"  description="">
+
+      <siteMapNode url="~/admin/secure/DataManager/download.aspx?filter=Inventory" title="Download Inventory"  description="" />
+      <siteMapNode url="~/admin/secure/DataManager/download.aspx?filter=Pricing" title="Download Pricing"  description="" />
+      <siteMapNode url="~/admin/secure/DataManager/download.aspx?filter=Product" title="Download Product"  description="" />
+      <siteMapNode url="~/admin/secure/DataManager/DownloadAttributes.aspx" title="Download Attributes"  description="" />
+      <siteMapNode url="~/admin/secure/DataManager/DownloadSku.aspx" title="Download SKUs"  description="" />
+
+      <siteMapNode url="~/admin/secure/DataManager/UpdateOrderShipping.aspx" title="Upload Shipping Status"  description="" />
+      <siteMapNode url="~/admin/secure/DataManager/UpdateInventory.aspx" title="Upload Inventory"  description="" />
+      <siteMapNode url="~/admin/secure/DataManager/UpdatePricing.aspx" title="Upload Pricing"  description="" />
+      <siteMapNode url="~/admin/secure/DataManager/UploadProduct.aspx" title="Upload Products"  description="" />
+      <siteMapNode url="~/admin/secure/DataManager/UpdateSku.aspx" title="Upload SKUs"  description="" />      
+      <siteMapNode url="~/admin/secure/DataManager/UploadZipCode.aspx" title="Upload Zip Code Data"  description="" />
+      
+    </siteMapNode>
+    
+		<siteMapNode url="~/admin/secure/settingsmanager.aspx" title="Settings"  description="" >
+			<siteMapNode url="~/admin/secure/settings/general/default.aspx" title="Global Settings"  description="" />
+			<siteMapNode url="~/admin/secure/settings/payment/default.aspx" title="Payments"  description="" />
+
+			<siteMapNode url="~/admin/secure/settings/shipping/default.aspx" title="Shipping"  description="" >
+				<siteMapNode url="~/admin/secure/settings/shipping/view.aspx" title="View Shipping Details"  description="" />
+			</siteMapNode>
+
+      <siteMapNode url="~/admin/secure/settings/taxes/default.aspx" title="Tax Classes"  description="">
+        <siteMapNode url="~/admin/secure/settings/taxes/View.aspx" title="View Tax Class" description=""/>
+        <siteMapNode url="~/admin/secure/settings/taxes/Add.aspx" title="Add Tax Class" description=""/>
+        <siteMapNode url="~/admin/secure/settings/taxes/AddRule.aspx" title="Add Tax Rule" description=""/>
+      </siteMapNode>
+      
+			<siteMapNode url="~/admin/secure/settings/profile/default.aspx" title="Profiles"  description="" />
+			<siteMapNode url="~/admin/secure/settings/StoreLocator/List.aspx" title="Store Locater"  description="" />
+		</siteMapNode>
+
+    <siteMapNode url="~/admin/secure/MaintManager.aspx" title="Maintenance"  description="" />
+    <siteMapNode url="~/admin/secure/Reports/default.aspx" title="Reports"  description="" >
+      <!-- Uncomment any reports that you would like to see on the left Nav of the Admin -->      
+      <siteMapNode url="~/admin/secure/Reports/ReportList.aspx?filter=12" title="Orders"  description="" />
+      <siteMapNode url="~/admin/secure/reports/ReportList.aspx?filter=21" title="Accounts" decription="" />      
+      <siteMapNode url="~/admin/secure/reports/InventoryReports.aspx?filter=20" title="Best Sellers" decription="" />      
+      <siteMapNode url="~/admin/secure/reports/InventoryReports.aspx?filter=19" title="Service Requests" decription="" />      
+      <siteMapNode url="~/admin/secure/reports/InventoryReports.aspx?filter=14" title="Email Opt-In Customers" decription="" />      
+      <siteMapNode url="~/admin/secure/reports/InventoryReports.aspx?filter=18" title="Inventory Re-Order" decription="" />      
+      <siteMapNode url="~/admin/secure/reports/InventoryReports.aspx?filter=15" title="Most Frequent Customers" decription="" />      
+      <siteMapNode url="~/admin/secure/reports/InventoryReports.aspx?filter=16" title="Top Spending Customers" decription="" />      
+      <siteMapNode url="~/admin/secure/reports/InventoryReports.aspx?filter=17" title="Top Earning Products" decription="" />      
+      <siteMapNode url="~/admin/secure/reports/InventoryReports.aspx?filter=13" title="Order Pick List" decription="" />
+      <siteMapNode url="~/admin/secure/reports/ActivityLogReport.aspx?filter=22" title="Activity Log" decription="" />
+      <siteMapNode url="~/admin/secure/reports/InventoryReports.aspx?filter=24" title="Coupon Usage" description=""/>
+      <siteMapNode url="~/admin/secure/reports/TaxReport.aspx?filter=25" title="Sales Tax" description=""/>
+      <siteMapNode url="~/admin/secure/reports/InventoryReports.aspx?filter=26" title="Affiliate Orders" description=""/>
+<!--
+      <siteMapNode url="~/admin/secure/reports/SupplierReport.aspx?filter=27" title="Supplier List" description=""/>
+-->
+     </siteMapNode>
+
+    
+  <siteMapNode url="~/admin/secure/AdvanceToolsManager.aspx" title="Advanced Tools"  description="" >
+    <siteMapNode url="~/admin/secure/settings/ruleTypes/taxRuleList.aspx" title="Tax Rule Engine"  description="" />
+    <siteMapNode url="~/admin/secure/settings/ruletypes/list.aspx" title="Promotion Rule Engine"  description="" />
+    <siteMapNode url="~/admin/secure/settings/ruletypes/default.aspx" title="Shipping Rule Engine"  description="" />
+    <siteMapNode url="~/admin/secure/settings/ruletypes/SupplierTypeList.aspx" title="Supplier Rule Engine"  description="" />
+
+
+  </siteMapNode>
+
+  </siteMapNode>
+</siteMap>
