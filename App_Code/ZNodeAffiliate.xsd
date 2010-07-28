@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ZNodeAffiliate" targetNamespace="http://tempuri.org/ZNodeAffiliate.xsd" xmlns:mstns="http://tempuri.org/ZNodeAffiliate.xsd" xmlns="http://tempuri.org/ZNodeAffiliate.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ZNodeAffiliate" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ZNodeAffiliate" msprop:Generator_DataSetName="ZNodeAffiliate">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ZNodeAffiliate" msprop:Generator_UserTableName="ZNodeAffiliate" msprop:Generator_RowDeletedName="ZNodeAffiliateRowDeleted" msprop:Generator_TableClassName="ZNodeAffiliateDataTable" msprop:Generator_RowChangedName="ZNodeAffiliateRowChanged" msprop:Generator_RowClassName="ZNodeAffiliateRow" msprop:Generator_RowChangingName="ZNodeAffiliateRowChanging" msprop:Generator_RowEvArgName="ZNodeAffiliateRowChangeEvent" msprop:Generator_RowEvHandlerName="ZNodeAffiliateRowChangeEventHandler" msprop:Generator_TablePropName="_ZNodeAffiliate" msprop:Generator_TableVarName="tableZNodeAffiliate" msprop:Generator_RowDeletingName="ZNodeAffiliateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Tax_x0020_ID" msprop:Generator_UserColumnName="Tax ID" msprop:Generator_ColumnPropNameInRow="Tax_ID" msprop:Generator_ColumnVarNameInTable="columnTax_ID" msprop:Generator_ColumnPropNameInTable="Tax_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Number_x0020_of_x0020_Orders" msprop:Generator_UserColumnName="Number of Orders" msprop:Generator_ColumnPropNameInRow="Number_of_Orders" msprop:Generator_ColumnVarNameInTable="columnNumber_of_Orders" msprop:Generator_ColumnPropNameInTable="Number_of_OrdersColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Order_x0020_Value" msprop:Generator_UserColumnName="Order Value" msprop:Generator_ColumnPropNameInRow="Order_Value" msprop:Generator_ColumnVarNameInTable="columnOrder_Value" msprop:Generator_ColumnPropNameInTable="Order_ValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Commission_x0020_Type" msprop:Generator_UserColumnName="Commission Type" msprop:Generator_ColumnPropNameInRow="Commission_Type" msprop:Generator_ColumnVarNameInTable="columnCommission_Type" msprop:Generator_ColumnPropNameInTable="Commission_TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Commission_x0020_Owed" msprop:Generator_UserColumnName="Commission Owed" msprop:Generator_ColumnPropNameInRow="Commission_Owed" msprop:Generator_ColumnVarNameInTable="columnCommission_Owed" msprop:Generator_ColumnPropNameInTable="Commission_OwedColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Commission_x0020_Amount" msprop:Generator_UserColumnName="Commission Amount" msprop:Generator_ColumnPropNameInRow="Commission_Amount" msprop:Generator_ColumnVarNameInTable="columnCommission_Amount" msprop:Generator_ColumnPropNameInTable="Commission_AmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ReferralCommission_x0020_TypeID" msprop:Generator_UserColumnName="ReferralCommission TypeID" msprop:Generator_ColumnPropNameInRow="ReferralCommission_TypeID" msprop:Generator_ColumnVarNameInTable="columnReferralCommission_TypeID" msprop:Generator_ColumnPropNameInTable="ReferralCommission_TypeIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ReferralAccountID" msprop:Generator_UserColumnName="ReferralAccountID" msprop:Generator_ColumnPropNameInRow="ReferralAccountID" msprop:Generator_ColumnVarNameInTable="columnReferralAccountID" msprop:Generator_ColumnPropNameInTable="ReferralAccountIDColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

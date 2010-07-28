@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ZnodeSEOMost_Search" targetNamespace="http://tempuri.org/ZnodeSEOMost_Search.xsd" xmlns:mstns="http://tempuri.org/ZnodeSEOMost_Search.xsd" xmlns="http://tempuri.org/ZnodeSEOMost_Search.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ZnodeSEOMost_Search" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ZnodeSEOMost_Search" msprop:Generator_DataSetName="ZnodeSEOMost_Search">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ZnodeSEOSearch" msprop:Generator_UserTableName="ZnodeSEOSearch" msprop:Generator_RowDeletedName="ZnodeSEOSearchRowDeleted" msprop:Generator_RowChangedName="ZnodeSEOSearchRowChanged" msprop:Generator_RowClassName="ZnodeSEOSearchRow" msprop:Generator_RowChangingName="ZnodeSEOSearchRowChanging" msprop:Generator_RowEvArgName="ZnodeSEOSearchRowChangeEvent" msprop:Generator_RowEvHandlerName="ZnodeSEOSearchRowChangeEventHandler" msprop:Generator_TableClassName="ZnodeSEOSearchDataTable" msprop:Generator_TableVarName="tableZnodeSEOSearch" msprop:Generator_RowDeletingName="ZnodeSEOSearchRowDeleting" msprop:Generator_TablePropName="ZnodeSEOSearch">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Search_x0020_Phrase" msprop:Generator_UserColumnName="Search Phrase" msprop:Generator_ColumnPropNameInRow="Search_Phrase" msprop:Generator_ColumnVarNameInTable="columnSearch_Phrase" msprop:Generator_ColumnPropNameInTable="Search_PhraseColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Times_x0020_Searched" msprop:Generator_UserColumnName="Times Searched" msprop:Generator_ColumnPropNameInRow="Times_Searched" msprop:Generator_ColumnVarNameInTable="columnTimes_Searched" msprop:Generator_ColumnPropNameInTable="Times_SearchedColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

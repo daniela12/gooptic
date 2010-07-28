@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ZNodeCaseRequestDataSet" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ZNodeCaseRequestDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ZNodeCaseRequestDataSet" msprop:Generator_DataSetName="ZNodeCaseRequestDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ZNodeCaseRequest" msprop:Generator_UserTableName="ZNodeCaseRequest" msprop:Generator_RowDeletedName="ZNodeCaseRequestRowDeleted" msprop:Generator_RowChangedName="ZNodeCaseRequestRowChanged" msprop:Generator_RowClassName="ZNodeCaseRequestRow" msprop:Generator_RowChangingName="ZNodeCaseRequestRowChanging" msprop:Generator_RowEvArgName="ZNodeCaseRequestRowChangeEvent" msprop:Generator_RowEvHandlerName="ZNodeCaseRequestRowChangeEventHandler" msprop:Generator_TableClassName="ZNodeCaseRequestDataTable" msprop:Generator_TableVarName="tableZNodeCaseRequest" msprop:Generator_RowDeletingName="ZNodeCaseRequestRowDeleting" msprop:Generator_TablePropName="ZNodeCaseRequest">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CaseID" msprop:Generator_UserColumnName="CaseID" msprop:Generator_ColumnPropNameInRow="CaseID" msprop:Generator_ColumnVarNameInTable="columnCaseID" msprop:Generator_ColumnPropNameInTable="CaseIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PortalID" msprop:Generator_UserColumnName="PortalID" msprop:Generator_ColumnPropNameInRow="PortalID" msprop:Generator_ColumnVarNameInTable="columnPortalID" msprop:Generator_ColumnPropNameInTable="PortalIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountID" msprop:Generator_UserColumnName="AccountID" msprop:Generator_ColumnPropNameInRow="AccountID" msprop:Generator_ColumnVarNameInTable="columnAccountID" msprop:Generator_ColumnPropNameInTable="AccountIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OwnerAccountID" msprop:Generator_UserColumnName="OwnerAccountID" msprop:Generator_ColumnPropNameInRow="OwnerAccountID" msprop:Generator_ColumnVarNameInTable="columnOwnerAccountID" msprop:Generator_ColumnPropNameInTable="OwnerAccountIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CaseStatusID" msprop:Generator_UserColumnName="CaseStatusID" msprop:Generator_ColumnPropNameInRow="CaseStatusID" msprop:Generator_ColumnVarNameInTable="columnCaseStatusID" msprop:Generator_ColumnPropNameInTable="CaseStatusIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CasePriorityID" msprop:Generator_UserColumnName="CasePriorityID" msprop:Generator_ColumnPropNameInRow="CasePriorityID" msprop:Generator_ColumnVarNameInTable="columnCasePriorityID" msprop:Generator_ColumnPropNameInTable="CasePriorityIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CaseTypeID" msprop:Generator_UserColumnName="CaseTypeID" msprop:Generator_ColumnPropNameInRow="CaseTypeID" msprop:Generator_ColumnVarNameInTable="columnCaseTypeID" msprop:Generator_ColumnPropNameInTable="CaseTypeIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CaseOrigin" msprop:Generator_UserColumnName="CaseOrigin" msprop:Generator_ColumnPropNameInRow="CaseOrigin" msprop:Generator_ColumnVarNameInTable="columnCaseOrigin" msprop:Generator_ColumnPropNameInTable="CaseOriginColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInTable="TitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FirstName" msprop:Generator_UserColumnName="FirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CompanyName" msprop:Generator_UserColumnName="CompanyName" msprop:Generator_ColumnPropNameInRow="CompanyName" msprop:Generator_ColumnVarNameInTable="columnCompanyName" msprop:Generator_ColumnPropNameInTable="CompanyNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailID" msprop:Generator_UserColumnName="EmailID" msprop:Generator_ColumnPropNameInRow="EmailID" msprop:Generator_ColumnVarNameInTable="columnEmailID" msprop:Generator_ColumnPropNameInTable="EmailIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PhoneNumber" msprop:Generator_UserColumnName="PhoneNumber" msprop:Generator_ColumnPropNameInRow="PhoneNumber" msprop:Generator_ColumnVarNameInTable="columnPhoneNumber" msprop:Generator_ColumnPropNameInTable="PhoneNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CreateDte" msprop:Generator_UserColumnName="CreateDte" msprop:Generator_ColumnPropNameInRow="CreateDte" msprop:Generator_ColumnVarNameInTable="columnCreateDte" msprop:Generator_ColumnPropNameInTable="CreateDteColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="StatusName" msprop:Generator_UserColumnName="StatusName" msprop:Generator_ColumnPropNameInRow="StatusName" msprop:Generator_ColumnVarNameInTable="columnStatusName" msprop:Generator_ColumnPropNameInTable="StatusNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LastName" msprop:Generator_UserColumnName="LastName" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnVarNameInTable="columnLastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
