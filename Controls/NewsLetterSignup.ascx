@@ -1,0 +1,2 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeFile="NewsLetterSignup.ascx.cs" Inherits="Controls_NewsletterSignup_NewsLetterSignup" %>
+<asp:TextBox ID="txtEmail" runat="server" CssClass="TextBox"></asp:TextBox>&nbsp;&nbsp;<asp:Button ID="btnSubmit" runat="server" Text="Go" CssClass="Button" />
